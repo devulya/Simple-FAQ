@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Find answers to the most frequently asked questions about our products, shipping, returns, and more."
+    />
+    <meta
+      name="keywords"
+      content="FAQ, frequently asked questions, returns, shipping, order tracking, help center"
+    />
+    <meta name="author" content="devulya" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Simple FAQ | devChallenges.io" />
+    <meta
+      property="og:description"
+      content="Browse through the most frequently asked questions."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="image/thumbnail.jpg" />
+    <meta property="og:url" content="https://" />
+    <!--  -->
+
+    <link
+      rel="icon"
+      href="image/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+            },
+            colors: {
+              blue: "#4E80EE",
+              dark: "#030616",
+              grayLight: "#D2D5DA",
+              whiteDark: "#F8FAFC",
+              white: "#FFFFFF",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="h-screen text-base leading-relaxed font-normal text-dark font-inter"
+  >
+    <header class="text-center py-20 px-4">
+      <h1 class="text-[2.25rem] font-semibold mb-2">
+        Frequently Asked Questions
+      </h1>
+      <p class="text-base font-normal">
+        Browse through the most frequently asked questions
+      </p>
+    </header>
+    <main class="bg-whiteDark py-14">
+      <div class="max-w-2xl mx-auto px-4">
+        <section class="flex flex-col border-b border-b-grayLight pb-8 mb-10">
+          <h2 class="text-[1.5rem] font-semibold mb-6">
+            How can I track my order?
+          </h2>
+          <h3 class="text-base font-normal mb-7">
+            You can track your order using the following steps:
+          </h3>
+          <ul class="list-decimal pl-5 mb-4 pace-y-2">
+            <li>
+              Go to the Order
+              <a href="#" target="_blank" class="text-blue">Tracking page</a>.
+            </li>
+            <li>Enter your order number and email address.</li>
+            <li>
+              Click on the Track Order button to view the current status of your
+              shipment.
+            </li>
+          </ul>
+          <p class="text-base text-[1rem]">
+            If you encounter any issues, please visit our
+            <a href="#" target="_blank" class="text-blue">Help Center</a>.
+          </p>
+        </section>
+
+        <section class="flex flex-col">
+          <h2 class="text-[1.5rem] font-semibold mb-6">
+            What is your return policy?
+          </h2>
+          <h3 class="text-base font-normal mb-7">
+            We offer a 30-day return policy on most items. Here are some key
+            points:
+          </h3>
+          <ul class="list-disc pl-5 mb-4 pace-y-2">
+            <li>
+              <b class="font-semibold">Items must be in original condition:</b>
+              Unworn, unused, and unwashed.
+            </li>
+            <li>
+              <b class="font-semibold"> Include original packaging and tags:</b>
+              All items should be returned with their original packaging and
+              tags.
+            </li>
+            <li>
+              <b class="font-semibold">Proof of purchase</b> A receipt or proof
+              of purchase is required.
+            </li>
+          </ul>
+          <p class="text-base font-normal">
+            For more detailed information, read our full
+            <a href="#" target="_blank" class="text-blue">Return Policy</a>.
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
