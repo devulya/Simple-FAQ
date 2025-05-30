@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://devulya.github.io/simple-faq-page/">
+    <a href="https://devulya.github.io/Simple-FAQ">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/devulya/simple-faq-page">
+    <a href="https://github.com/devulya/Simple-FAQ">
       Solution
     </a>
     <span> | </span>
